@@ -1,0 +1,129 @@
+header {
+    background-color: #4D6AFF;
+    height: 70px
+}
+    #user-pic {
+        background: url("../files/user.png") 0px 0px no-repeat;
+        margin-top: 14px;
+        float: right;
+        margin-right: 20px;
+        padding-left: 52px;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFFFFF;
+        height: 40px;
+    }
+
+.center {
+    text-align: center;
+}
+
+.container {
+    padding: 0px;
+}
+
+main {
+    background-color: #E7E7E7;
+}
+    main > .container {
+        line-height: 34px;
+        font-size: 28px;
+        color: #2F2F2F;
+    }
+        main .row > .left {
+            padding: 30px 0px 0px 30px;
+            background-color: #FFFFFF;
+        }
+        main .row > .right {
+            padding: 26px 20px 0px;
+            background-color: #F2F2F2;
+        }
+            main .right h2 {
+                padding-left: 15px;
+            }
+
+    .arrow {
+        background: url("../files/arrows.png") 0px 2px no-repeat;
+        display: inline-block;
+        cursor:pointer;
+        height: 26px;
+        width: 14px;
+    }
+        .arrow.left {
+            margin-right: 30px;
+            margin-top: 12px;
+            float: right;
+        }
+        .arrow.right {
+            background-position: -14px 2px;
+            margin-right: 20px;
+            margin-top: 12px;
+            float: right;
+        }
+
+    main .w-block {
+        background-color: #D9D9D9;
+        height: 186px;
+        padding: 0px;
+        min-width: 224px;
+        margin: 11px 0px 11px;
+    }
+
+    main .b-block-parent {
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 200px;
+    }
+    main .b-block {
+        background-color: #3A6AFF;
+        text-align: center;
+    }
+        main .b-block > h2 {
+            margin-top: 30px;
+            color: #FFFFFF;
+        }
+
+        main .b-block .button {
+            background-color: #FFFFFF;
+            border-radius: 50px;
+            font-weight: bold;
+            padding: 25px 25px;
+            font-size: 20px;
+            color: #2F2F2F;
+            flex: 1;
+            display: block;
+            max-width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+            main .b-block .button:hover {
+                background-color: #F2F2F2;
+                cursor: pointer;
+            }
+
+        main .line{
+            margin: 19px 0px 19px 0px;
+            font-size: 28px;
+        }
+
+    main .ws-block {
+        background-color: #D9D9D9;
+        margin: 11px 0px 11px;
+        height: 130px;
+    }
+        main .resize {
+            height: 186px;
+        }
+
+footer {
+    background-color: #111111;
+    color: #FFFFFF;
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: 28px;
+    height: 135px;
+}
