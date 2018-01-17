@@ -3,12 +3,26 @@
     font-family: Arial;
     min-height: 70px;
     padding: 0px;
+
+    background: linear-gradient(to bottom, #3A6AFF 70px, #1E3E9D 70px)
 }
 
 #header-nav-bar .navbar-brand {
     font-size: 32px;
     color: #FFFFFF;
 }
+
+#header-nav-bar .navbar-nav li a {
+    line-height: 70px;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #FFFFFF;
+    height: 70px;
+}
+    #header-nav-bar .navbar-nav li a:hover {
+        background-color: #2B54D0;
+    }
 
 #header-search {
     padding-right: 40px;
@@ -66,11 +80,11 @@ main {
         color: #2F2F2F;
     }
         main .row > .left {
-            padding: 30px 0px 0px 30px;
+            padding: 23px 0px 0px 23px;
             background-color: #FFFFFF;
         }
         main .row > .right {
-            padding: 26px 20px 0px;
+            padding: 19px 14px 0px;
             background-color: #F2F2F2;
         }
             main .right h2 {
