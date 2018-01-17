@@ -1,18 +1,53 @@
+/* ======= Bootstrap customize ======= */
+#header-nav-bar {
+    font-family: Arial;
+    min-height: 70px;
+    padding: 0px;
+}
+
+#header-nav-bar .navbar-brand {
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+#header-search {
+    padding-right: 40px;
+    max-width: 450px;
+    #flex: 1;
+}
+    #header-search input {
+        border-radius: 9px;
+        font-size: 16px;
+        color: #2F2F2F;
+        width: 100%;
+    }
+        #header-search input::-webkit-input-placeholder { color: #D3D3D3; }
+        #header-search input::-moz-placeholder { color: #D3D3D3; }
+        #header-search input:-ms-input-placeholder { color: #D3D3D3; }
+        #header-search input:-moz-placeholder { color: #D3D3D3; }
+
+.navbar-dark .navbar-toggler {
+    border-color: transparent;
+}
+
+/* =================================== */
+
 header {
     background-color: #4D6AFF;
-    height: 70px
 }
     #user-pic {
         background: url("../files/user.png") 0px 0px no-repeat;
-        margin-top: 14px;
         float: right;
-        margin-right: 20px;
+        line-height: 200%;
         padding-left: 52px;
         font-weight: 400;
-        font-size: 24px;
+        font-size: calc(14px + (22 - 14) * ((100vw - 768px) / (1600 - 768)));
         color: #FFFFFF;
         height: 40px;
     }
+        #user-pic > p {
+            #margin-right: 10px;
+        }
 
 .center {
     text-align: center;
